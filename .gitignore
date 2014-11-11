@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/bin
+/obj
+/packages
+/AuthStoreBench.suo
+/AuthStorePerf.csproj.user
+/AuthStorePerf.v12.suo
+/LoginStoreBench.suo
