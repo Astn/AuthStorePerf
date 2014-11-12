@@ -386,7 +386,7 @@ CREATE TABLE [dbo].[myLogin](
                 .Range(1, numberOfLogins)
                 .Select(e => new
                 {
-                    username = string.Format("email{0}@dealersocket.com", e),
+                    username = string.Format("email{0}@somedomain.com", e),
                     password = new String(Enumerable.Range(1, 10).Select(en => (char)rnd.Next((int)'A', (int)'z')).ToArray())
                 })
                 .Select(e => new
